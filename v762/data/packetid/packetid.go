@@ -1,0 +1,208 @@
+package packetid
+
+//go:generate stringer -type ClientboundPacketID
+//go:generate stringer -type ServerboundPacketID
+type (
+	ClientboundPacketID int32
+	ServerboundPacketID int32
+)
+
+// Login Clientbound
+const (
+	LoginDisconnect = iota
+	LoginEncryptionRequest
+	LoginSuccess
+	LoginCompression
+	LoginPluginRequest
+)
+
+// Login Serverbound
+const (
+	LoginStart = iota
+	LoginEncryptionResponse
+	LoginPluginResponse
+)
+
+// Status Clientbound
+const (
+	StatusResponse = iota
+	StatusPongResponse
+)
+
+// Status Serverbound
+const (
+	StatusRequest = iota
+	StatusPingRequest
+)
+
+// Game Clientbound
+const (
+	BundleDelimiter ClientboundPacketID = iota
+	ClientboundAddEntity
+	ClientboundAddExperienceOrb
+	ClientboundAddPlayer
+	ClientboundAnimate
+	ClientboundAwardStats
+	ClientboundBlockChangedAck
+	ClientboundBlockDestruction
+	ClientboundBlockEntityData
+	ClientboundBlockEvent
+	ClientboundBlockUpdate
+	ClientboundBossEvent
+	ClientboundChangeDifficulty
+	ClientboundChunksBiomes
+	ClientboundClearTitles
+	ClientboundCommandSuggestions
+	ClientboundCommands
+	ClientboundContainerClose
+	ClientboundContainerSetContent
+	ClientboundContainerSetData
+	ClientboundContainerSetSlot
+	ClientboundCooldown
+	ClientboundCustomChatCompletions
+	ClientboundCustomPayload
+	ClientboundDamageEvent
+	ClientboundDeleteChat
+	ClientboundDisconnect
+	ClientboundDisguisedChat
+	ClientboundEntityEvent
+	ClientboundExplode
+	ClientboundForgetLevelChunk
+	ClientboundGameEvent
+	ClientboundHorseScreenOpen
+	ClientboundHurtAnimation
+	ClientboundInitializeBorder
+	ClientboundKeepAlive
+	ClientboundLevelChunkWithLight
+	ClientboundLevelEvent
+	ClientboundLevelParticles
+	ClientboundLightUpdate
+	ClientboundLogin
+	ClientboundMapItemData
+	ClientboundMerchantOffers
+	ClientboundMoveEntityPos
+	ClientboundMoveEntityPosRot
+	ClientboundMoveEntityRot
+	ClientboundMoveVehicle
+	ClientboundOpenBook
+	ClientboundOpenScreen
+	ClientboundOpenSignEditor
+	ClientboundPing
+	ClientboundPlaceGhostRecipe
+	ClientboundPlayerAbilities
+	ClientboundPlayerChat
+	ClientboundPlayerCombatEnd
+	ClientboundPlayerCombatEnter
+	ClientboundPlayerCombatKill
+	ClientboundPlayerInfoRemove
+	ClientboundPlayerInfoUpdate
+	ClientboundPlayerLookAt
+	ClientboundPlayerPosition
+	ClientboundRecipe
+	ClientboundRemoveEntities
+	ClientboundRemoveMobEffect
+	ClientboundResourcePack
+	ClientboundRespawn
+	ClientboundRotateHead
+	ClientboundSectionBlocksUpdate
+	ClientboundSelectAdvancementsTab
+	ClientboundServerData
+	ClientboundSetActionBarText
+	ClientboundSetBorderCenter
+	ClientboundSetBorderLerpSize
+	ClientboundSetBorderSize
+	ClientboundSetBorderWarningDelay
+	ClientboundSetBorderWarningDistance
+	ClientboundSetCamera
+	ClientboundSetCarriedItem
+	ClientboundSetChunkCacheCenter
+	ClientboundSetChunkCacheRadius
+	ClientboundSetDefaultSpawnPosition
+	ClientboundSetDisplayObjective
+	ClientboundSetEntityData
+	ClientboundSetEntityLink
+	ClientboundSetEntityMotion
+	ClientboundSetEquipment
+	ClientboundSetExperience
+	ClientboundSetHealth
+	ClientboundSetObjective
+	ClientboundSetPassengers
+	ClientboundSetPlayerTeam
+	ClientboundSetScore
+	ClientboundSetSimulationDistance
+	ClientboundSetSubtitleText
+	ClientboundSetTime
+	ClientboundSetTitleText
+	ClientboundSetTitlesAnimation
+	ClientboundSoundEntity
+	ClientboundSound
+	ClientboundStopSound
+	ClientboundSystemChat
+	ClientboundTabList
+	ClientboundTagQuery
+	ClientboundTakeItemEntity
+	ClientboundTeleportEntity
+	ClientboundUpdateAdvancements
+	ClientboundUpdateAttributes
+	ClientboundUpdateEnabledFeatures
+	ClientboundUpdateMobEffect
+	ClientboundUpdateRecipes
+	ClientboundUpdateTags
+	ClientboundPacketIDGuard
+)
+
+// Game Serverbound
+const (
+	ServerboundAcceptTeleportation ServerboundPacketID = iota
+	ServerboundBlockEntityTagQuery
+	ServerboundChangeDifficulty
+	ServerboundChatAck
+	ServerboundChatCommand
+	ServerboundChat
+	ServerboundChatSessionUpdate
+	ServerboundClientCommand
+	ServerboundClientInformation
+	ServerboundCommandSuggestion
+	ServerboundContainerButtonClick
+	ServerboundContainerClick
+	ServerboundContainerClose
+	ServerboundCustomPayload
+	ServerboundEditBook
+	ServerboundEntityTagQuery
+	ServerboundInteract
+	ServerboundJigsawGenerate
+	ServerboundKeepAlive
+	ServerboundLockDifficulty
+	ServerboundMovePlayerPos
+	ServerboundMovePlayerPosRot
+	ServerboundMovePlayerRot
+	ServerboundMovePlayerStatusOnly
+	ServerboundMoveVehicle
+	ServerboundPaddleBoat
+	ServerboundPickItem
+	ServerboundPlaceRecipe
+	ServerboundPlayerAbilities
+	ServerboundPlayerAction
+	ServerboundPlayerCommand
+	ServerboundPlayerInput
+	ServerboundPong
+	ServerboundRecipeBookChangeSettings
+	ServerboundRecipeBookSeenRecipe
+	ServerboundRenameItem
+	ServerboundResourcePack
+	ServerboundSeenAdvancements
+	ServerboundSelectTrade
+	ServerboundSetBeacon
+	ServerboundSetCarriedItem
+	ServerboundSetCommandBlock
+	ServerboundSetCommandMinecart
+	ServerboundSetCreativeModeSlot
+	ServerboundSetJigsawBlock
+	ServerboundSetStructureBlock
+	ServerboundSignUpdate
+	ServerboundSwing
+	ServerboundTeleportToEntity
+	ServerboundUseItemOn
+	ServerboundUseItem
+	ServerboundPacketIDGuard
+)
