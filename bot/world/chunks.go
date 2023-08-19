@@ -3,11 +3,11 @@ package world
 import (
 	"errors"
 
-	"github.com/Tnze/go-mc/bot"
-	"github.com/Tnze/go-mc/bot/basic"
-	"github.com/Tnze/go-mc/data/packetid"
-	"github.com/Tnze/go-mc/level"
-	pk "github.com/Tnze/go-mc/net/packet"
+	"github.com/maxsupermanhd/go-vmc/bot"
+	"github.com/maxsupermanhd/go-vmc/bot/basic"
+	"github.com/maxsupermanhd/go-vmc/data/packetid"
+	"github.com/maxsupermanhd/go-vmc/level"
+	pk "github.com/maxsupermanhd/go-vmc/net/packet"
 )
 
 type World struct {

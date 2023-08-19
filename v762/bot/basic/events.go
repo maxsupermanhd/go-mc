@@ -1,10 +1,10 @@
 package basic
 
 import (
-	"github.com/Tnze/go-mc/bot"
-	"github.com/Tnze/go-mc/chat"
-	"github.com/Tnze/go-mc/data/packetid"
-	pk "github.com/Tnze/go-mc/net/packet"
+	"github.com/maxsupermanhd/go-vmc/bot"
+	"github.com/maxsupermanhd/go-vmc/chat"
+	"github.com/maxsupermanhd/go-vmc/data/packetid"
+	pk "github.com/maxsupermanhd/go-vmc/net/packet"
 )
 
 // EventsListener is a collection of event handlers.

@@ -6,7 +6,7 @@ import (
 
 	"github.com/google/uuid"
 
-	pk "github.com/Tnze/go-mc/net/packet"
+	pk "github.com/maxsupermanhd/go-vmc/net/packet"
 )
 
 type MessageBody struct {

@@ -3,9 +3,9 @@ package basic
 import (
 	"unsafe"
 
-	"github.com/Tnze/go-mc/data/packetid"
-	pk "github.com/Tnze/go-mc/net/packet"
-	"github.com/Tnze/go-mc/registry"
+	"github.com/maxsupermanhd/go-vmc/data/packetid"
+	pk "github.com/maxsupermanhd/go-vmc/net/packet"
+	"github.com/maxsupermanhd/go-vmc/registry"
 )
 
 // WorldInfo content player info in server.
@@ -76,7 +76,7 @@ func (p *Player) handleLoginPacket(packet pk.Packet) error {
 	if err != nil {
 		return Error{err}
 	}
-	
+
 	p.resetKeepAliveDeadline()
 	return nil
 }

@@ -10,7 +10,7 @@ import (
 	"strconv"
 	"time"
 
-	pk "github.com/Tnze/go-mc/net/packet"
+	pk "github.com/maxsupermanhd/go-vmc/net/packet"
 )
 
 const DefaultPort = 25565

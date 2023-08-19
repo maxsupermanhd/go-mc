@@ -12,12 +12,12 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/Tnze/go-mc/chat"
-	"github.com/Tnze/go-mc/data/packetid"
-	mcnet "github.com/Tnze/go-mc/net"
-	pk "github.com/Tnze/go-mc/net/packet"
-	"github.com/Tnze/go-mc/net/queue"
-	"github.com/Tnze/go-mc/yggdrasil/user"
+	"github.com/maxsupermanhd/go-vmc/chat"
+	"github.com/maxsupermanhd/go-vmc/data/packetid"
+	mcnet "github.com/maxsupermanhd/go-vmc/net"
+	pk "github.com/maxsupermanhd/go-vmc/net/packet"
+	"github.com/maxsupermanhd/go-vmc/net/queue"
+	"github.com/maxsupermanhd/go-vmc/yggdrasil/user"
 )
 
 // ProtocolVersion is the protocol version number of minecraft net protocol

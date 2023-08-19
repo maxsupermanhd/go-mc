@@ -3,8 +3,8 @@ package bot
 import (
 	"fmt"
 
-	"github.com/Tnze/go-mc/data/packetid"
-	pk "github.com/Tnze/go-mc/net/packet"
+	"github.com/maxsupermanhd/go-vmc/data/packetid"
+	pk "github.com/maxsupermanhd/go-vmc/net/packet"
 )
 
 // HandleGame receive server packet and response them correctly.

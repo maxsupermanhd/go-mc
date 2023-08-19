@@ -18,7 +18,7 @@ A clear and concise description of what the bug is.
 ```go
 package main
 
-// import "github.com/Tnze/go-mc/xxxxx"
+// import "github.com/maxsupermanhd/go-vmc/xxxxx"
 
 func main() {
 

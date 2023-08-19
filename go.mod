@@ -1,4 +1,4 @@
-module github.com/maxsupermanhd/go-mc
+module github.com/maxsupermanhd/go-vmc
 
 go 1.19
 

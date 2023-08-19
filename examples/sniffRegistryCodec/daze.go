@@ -9,12 +9,12 @@ import (
 
 	//"github.com/mattn/go-colorable"
 
-	"github.com/Tnze/go-mc/bot"
-	"github.com/Tnze/go-mc/bot/basic"
-	_ "github.com/Tnze/go-mc/data/lang/zh-cn"
-	"github.com/Tnze/go-mc/data/packetid"
-	"github.com/Tnze/go-mc/nbt"
-	pk "github.com/Tnze/go-mc/net/packet"
+	"github.com/maxsupermanhd/go-vmc/bot"
+	"github.com/maxsupermanhd/go-vmc/bot/basic"
+	_ "github.com/maxsupermanhd/go-vmc/data/lang/zh-cn"
+	"github.com/maxsupermanhd/go-vmc/data/packetid"
+	"github.com/maxsupermanhd/go-vmc/nbt"
+	pk "github.com/maxsupermanhd/go-vmc/net/packet"
 )
 
 var (

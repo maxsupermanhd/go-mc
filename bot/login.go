@@ -15,10 +15,10 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/Tnze/go-mc/data/packetid"
-	"github.com/Tnze/go-mc/net"
-	"github.com/Tnze/go-mc/net/CFB8"
-	pk "github.com/Tnze/go-mc/net/packet"
+	"github.com/maxsupermanhd/go-vmc/data/packetid"
+	"github.com/maxsupermanhd/go-vmc/net"
+	"github.com/maxsupermanhd/go-vmc/net/CFB8"
+	pk "github.com/maxsupermanhd/go-vmc/net/packet"
 )
 
 // Auth includes an account

@@ -9,8 +9,8 @@ import (
 	"os"
 	"text/template"
 
-	"github.com/Tnze/go-mc/internal/generateutils"
-	"github.com/Tnze/go-mc/nbt"
+	"github.com/maxsupermanhd/go-vmc/internal/generateutils"
+	"github.com/maxsupermanhd/go-vmc/nbt"
 )
 
 //go:embed blocks.go.tmpl

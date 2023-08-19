@@ -7,10 +7,10 @@ import (
 	"flag"
 	"log"
 
-	"github.com/Tnze/go-mc/bot"
-	"github.com/Tnze/go-mc/bot/basic"
-	"github.com/Tnze/go-mc/chat"
-	//_ "github.com/Tnze/go-mc/data/lang/zh-cn"
+	"github.com/maxsupermanhd/go-vmc/bot"
+	"github.com/maxsupermanhd/go-vmc/bot/basic"
+	"github.com/maxsupermanhd/go-vmc/chat"
+	//_ "github.com/maxsupermanhd/go-vmc/data/lang/zh-cn"
 )
 
 var (

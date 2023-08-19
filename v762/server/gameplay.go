@@ -3,8 +3,8 @@ package server
 import (
 	_ "embed"
 
-	"github.com/Tnze/go-mc/net"
-	"github.com/Tnze/go-mc/yggdrasil/user"
+	"github.com/maxsupermanhd/go-vmc/net"
+	"github.com/maxsupermanhd/go-vmc/yggdrasil/user"
 
 	"github.com/google/uuid"
 )

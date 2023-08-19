@@ -2,7 +2,7 @@
 
 package gl_es
 
-import "github.com/Tnze/go-mc/chat"
+import "github.com/maxsupermanhd/go-vmc/chat"
 
 func init() { chat.SetLanguage(Map) }
 
