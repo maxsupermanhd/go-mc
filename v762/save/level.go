@@ -3,7 +3,7 @@ package save
 import (
 	"io"
 
-	"github.com/maxsupermanhd/go-vmc/nbt"
+	"github.com/maxsupermanhd/go-vmc/v762/nbt"
 )
 
 type Level struct {

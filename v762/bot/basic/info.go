@@ -3,9 +3,9 @@ package basic
 import (
 	"unsafe"
 
-	"github.com/maxsupermanhd/go-vmc/data/packetid"
-	pk "github.com/maxsupermanhd/go-vmc/net/packet"
-	"github.com/maxsupermanhd/go-vmc/registry"
+	"github.com/maxsupermanhd/go-vmc/v762/data/packetid"
+	pk "github.com/maxsupermanhd/go-vmc/v762/net/packet"
+	"github.com/maxsupermanhd/go-vmc/v762/registry"
 )
 
 // WorldInfo content player info in server.

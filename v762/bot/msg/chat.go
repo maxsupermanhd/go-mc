@@ -8,13 +8,13 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/maxsupermanhd/go-vmc/bot"
-	"github.com/maxsupermanhd/go-vmc/bot/basic"
-	"github.com/maxsupermanhd/go-vmc/bot/playerlist"
-	"github.com/maxsupermanhd/go-vmc/chat"
-	"github.com/maxsupermanhd/go-vmc/chat/sign"
-	"github.com/maxsupermanhd/go-vmc/data/packetid"
-	pk "github.com/maxsupermanhd/go-vmc/net/packet"
+	"github.com/maxsupermanhd/go-vmc/v762/bot"
+	"github.com/maxsupermanhd/go-vmc/v762/bot/basic"
+	"github.com/maxsupermanhd/go-vmc/v762/bot/playerlist"
+	"github.com/maxsupermanhd/go-vmc/v762/chat"
+	"github.com/maxsupermanhd/go-vmc/v762/chat/sign"
+	"github.com/maxsupermanhd/go-vmc/v762/data/packetid"
+	pk "github.com/maxsupermanhd/go-vmc/v762/net/packet"
 )
 
 // The Manager is used to receive and send chat messages.

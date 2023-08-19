@@ -2,7 +2,7 @@
 
 package sv_se
 
-import "github.com/maxsupermanhd/go-vmc/chat"
+import "github.com/maxsupermanhd/go-vmc/v762/chat"
 
 func init() { chat.SetLanguage(Map) }
 

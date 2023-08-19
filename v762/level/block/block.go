@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"math/bits"
 
-	"github.com/maxsupermanhd/go-vmc/nbt"
+	"github.com/maxsupermanhd/go-vmc/v762/nbt"
 )
 
 type Block interface {

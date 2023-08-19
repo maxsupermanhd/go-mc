@@ -10,7 +10,7 @@ import (
 	"path/filepath"
 	"text/template"
 
-	"github.com/maxsupermanhd/go-vmc/internal/generateutils"
+	"github.com/maxsupermanhd/go-vmc/v762/internal/generateutils"
 )
 
 type registry struct {

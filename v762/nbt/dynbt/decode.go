@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/maxsupermanhd/go-vmc/nbt"
+	"github.com/maxsupermanhd/go-vmc/v762/nbt"
 )
 
 func (v *Value) UnmarshalNBT(tagType byte, r nbt.DecoderReader) error {

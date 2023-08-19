@@ -3,7 +3,7 @@ package chat
 import (
 	"io"
 
-	pk "github.com/maxsupermanhd/go-vmc/net/packet"
+	pk "github.com/maxsupermanhd/go-vmc/v762/net/packet"
 )
 
 type Decoration struct {

@@ -3,11 +3,11 @@ package world
 import (
 	"errors"
 
-	"github.com/maxsupermanhd/go-vmc/bot"
-	"github.com/maxsupermanhd/go-vmc/bot/basic"
-	"github.com/maxsupermanhd/go-vmc/data/packetid"
-	"github.com/maxsupermanhd/go-vmc/level"
-	pk "github.com/maxsupermanhd/go-vmc/net/packet"
+	"github.com/maxsupermanhd/go-vmc/v762/bot"
+	"github.com/maxsupermanhd/go-vmc/v762/bot/basic"
+	"github.com/maxsupermanhd/go-vmc/v762/data/packetid"
+	"github.com/maxsupermanhd/go-vmc/v762/level"
+	pk "github.com/maxsupermanhd/go-vmc/v762/net/packet"
 )
 
 type World struct {

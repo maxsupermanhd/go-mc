@@ -4,8 +4,8 @@ import (
 	"sort"
 	"strconv"
 
-	"github.com/maxsupermanhd/go-vmc/data/packetid"
-	pk "github.com/maxsupermanhd/go-vmc/net/packet"
+	"github.com/maxsupermanhd/go-vmc/v762/data/packetid"
+	pk "github.com/maxsupermanhd/go-vmc/v762/net/packet"
 )
 
 type Events struct {

@@ -6,7 +6,7 @@ import (
 	"io"
 	"testing"
 
-	pk "github.com/maxsupermanhd/go-vmc/net/packet"
+	pk "github.com/maxsupermanhd/go-vmc/v762/net/packet"
 )
 
 //go:embed joingame_test.bin

@@ -11,12 +11,12 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/maxsupermanhd/go-vmc/bot"
-	"github.com/maxsupermanhd/go-vmc/chat"
-	"github.com/maxsupermanhd/go-vmc/chat/sign"
-	"github.com/maxsupermanhd/go-vmc/data/packetid"
-	pk "github.com/maxsupermanhd/go-vmc/net/packet"
-	"github.com/maxsupermanhd/go-vmc/yggdrasil/user"
+	"github.com/maxsupermanhd/go-vmc/v762/bot"
+	"github.com/maxsupermanhd/go-vmc/v762/chat"
+	"github.com/maxsupermanhd/go-vmc/v762/chat/sign"
+	"github.com/maxsupermanhd/go-vmc/v762/data/packetid"
+	pk "github.com/maxsupermanhd/go-vmc/v762/net/packet"
+	"github.com/maxsupermanhd/go-vmc/v762/yggdrasil/user"
 )
 
 type PlayerList struct {

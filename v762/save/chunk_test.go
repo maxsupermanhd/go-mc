@@ -4,7 +4,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/maxsupermanhd/go-vmc/save/region"
+	"github.com/maxsupermanhd/go-vmc/v762/save/region"
 )
 
 func TestColumn(t *testing.T) {

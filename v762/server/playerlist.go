@@ -5,7 +5,7 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/maxsupermanhd/go-vmc/chat"
+	"github.com/maxsupermanhd/go-vmc/v762/chat"
 )
 
 type PlayerListClient interface {

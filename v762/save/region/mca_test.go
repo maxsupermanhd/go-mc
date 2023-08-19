@@ -8,7 +8,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/maxsupermanhd/go-vmc/nbt"
+	"github.com/maxsupermanhd/go-vmc/v762/nbt"
 )
 
 func TestIn(t *testing.T) {

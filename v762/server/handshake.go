@@ -1,8 +1,8 @@
 package server
 
 import (
-	"github.com/maxsupermanhd/go-vmc/net"
-	pk "github.com/maxsupermanhd/go-vmc/net/packet"
+	"github.com/maxsupermanhd/go-vmc/v762/net"
+	pk "github.com/maxsupermanhd/go-vmc/v762/net/packet"
 )
 
 func (s *Server) handshake(conn *net.Conn) (protocol int32, intention int32, err error) {

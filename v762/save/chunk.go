@@ -7,7 +7,7 @@ import (
 	"errors"
 	"io"
 
-	"github.com/maxsupermanhd/go-vmc/nbt"
+	"github.com/maxsupermanhd/go-vmc/v762/nbt"
 )
 
 // Chunk is 16* chunk

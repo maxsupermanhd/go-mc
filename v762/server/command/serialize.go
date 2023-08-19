@@ -4,7 +4,7 @@ import (
 	"io"
 	"unsafe"
 
-	pk "github.com/maxsupermanhd/go-vmc/net/packet"
+	pk "github.com/maxsupermanhd/go-vmc/v762/net/packet"
 )
 
 const (

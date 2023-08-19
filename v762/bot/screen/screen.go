@@ -4,11 +4,11 @@ import (
 	"errors"
 	"io"
 
-	"github.com/maxsupermanhd/go-vmc/bot"
-	"github.com/maxsupermanhd/go-vmc/chat"
-	"github.com/maxsupermanhd/go-vmc/data/packetid"
-	"github.com/maxsupermanhd/go-vmc/nbt"
-	pk "github.com/maxsupermanhd/go-vmc/net/packet"
+	"github.com/maxsupermanhd/go-vmc/v762/bot"
+	"github.com/maxsupermanhd/go-vmc/v762/chat"
+	"github.com/maxsupermanhd/go-vmc/v762/data/packetid"
+	"github.com/maxsupermanhd/go-vmc/v762/nbt"
+	pk "github.com/maxsupermanhd/go-vmc/v762/net/packet"
 )
 
 type Manager struct {
