@@ -20,9 +20,9 @@
 package basic
 
 import (
-	"github.com/Tnze/go-vmc/v767/bot"
-	"github.com/Tnze/go-vmc/v767/data/packetid"
-	pk "github.com/Tnze/go-vmc/v767/net/packet"
+	"github.com/maxsupermanhd/go-vmc/v767/bot"
+	"github.com/maxsupermanhd/go-vmc/v767/data/packetid"
+	pk "github.com/maxsupermanhd/go-vmc/v767/net/packet"
 )
 
 type Player struct {

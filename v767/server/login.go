@@ -7,13 +7,13 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/Tnze/go-vmc/v767/chat"
-	"github.com/Tnze/go-vmc/v767/data/packetid"
-	"github.com/Tnze/go-vmc/v767/net"
-	pk "github.com/Tnze/go-vmc/v767/net/packet"
-	"github.com/Tnze/go-vmc/v767/offline"
-	"github.com/Tnze/go-vmc/v767/server/auth"
-	"github.com/Tnze/go-vmc/v767/yggdrasil/user"
+	"github.com/maxsupermanhd/go-vmc/v767/chat"
+	"github.com/maxsupermanhd/go-vmc/v767/data/packetid"
+	"github.com/maxsupermanhd/go-vmc/v767/net"
+	pk "github.com/maxsupermanhd/go-vmc/v767/net/packet"
+	"github.com/maxsupermanhd/go-vmc/v767/offline"
+	"github.com/maxsupermanhd/go-vmc/v767/server/auth"
+	"github.com/maxsupermanhd/go-vmc/v767/yggdrasil/user"
 
 	"github.com/google/uuid"
 )

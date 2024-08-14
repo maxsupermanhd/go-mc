@@ -3,11 +3,11 @@ package world
 import (
 	"fmt"
 
-	"github.com/Tnze/go-vmc/v767/bot"
-	"github.com/Tnze/go-vmc/v767/bot/basic"
-	"github.com/Tnze/go-vmc/v767/data/packetid"
-	"github.com/Tnze/go-vmc/v767/level"
-	pk "github.com/Tnze/go-vmc/v767/net/packet"
+	"github.com/maxsupermanhd/go-vmc/v767/bot"
+	"github.com/maxsupermanhd/go-vmc/v767/bot/basic"
+	"github.com/maxsupermanhd/go-vmc/v767/data/packetid"
+	"github.com/maxsupermanhd/go-vmc/v767/level"
+	pk "github.com/maxsupermanhd/go-vmc/v767/net/packet"
 )
 
 type World struct {

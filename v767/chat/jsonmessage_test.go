@@ -7,9 +7,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Tnze/go-vmc/v767/chat"
-	en_us "github.com/Tnze/go-vmc/v767/data/lang/en-us"
-	pk "github.com/Tnze/go-vmc/v767/net/packet"
+	"github.com/maxsupermanhd/go-vmc/v767/chat"
+	en_us "github.com/maxsupermanhd/go-vmc/v767/data/lang/en-us"
+	pk "github.com/maxsupermanhd/go-vmc/v767/net/packet"
 )
 
 var jsons = []string{

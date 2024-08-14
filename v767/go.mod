@@ -1,4 +1,4 @@
-module github.com/Tnze/go-vmc/v767
+module github.com/maxsupermanhd/go-vmc/v767
 
 go 1.22
 

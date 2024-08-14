@@ -1,6 +1,6 @@
 package component
 
-import pk "github.com/Tnze/go-vmc/v767/net/packet"
+import pk "github.com/maxsupermanhd/go-vmc/v767/net/packet"
 
 var _ DataComponent = (*RepairCost)(nil)
 

@@ -5,7 +5,7 @@ import (
 	_ "embed"
 	"testing"
 
-	"github.com/Tnze/go-vmc/v767/nbt"
+	"github.com/maxsupermanhd/go-vmc/v767/nbt"
 )
 
 //go:embed bigTest_test.snbt

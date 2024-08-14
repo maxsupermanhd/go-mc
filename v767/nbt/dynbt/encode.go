@@ -4,7 +4,7 @@ import (
 	"errors"
 	"io"
 
-	"github.com/Tnze/go-vmc/v767/nbt"
+	"github.com/maxsupermanhd/go-vmc/v767/nbt"
 )
 
 func (v *Value) TagType() byte { return v.tag }

@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"strings"
 
-	pk "github.com/Tnze/go-vmc/v767/net/packet"
+	pk "github.com/maxsupermanhd/go-vmc/v767/net/packet"
 )
 
 type Parser interface {

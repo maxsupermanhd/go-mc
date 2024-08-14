@@ -4,7 +4,7 @@
 // or net/packet.Field .
 //
 // It's very recommended that use SetLanguage before using Message.String or Message.ClearString,
-// or the `github.com/Tnze/go-vmc/v767/data/en-us` will be used.
+// or the `github.com/maxsupermanhd/go-vmc/v767/data/en-us` will be used.
 // Note: The package of data/lang/... will SetLanguage on theirs init() so you don't need to call by your self.
 //
 // Some of these docs is copied from https://wiki.vg/Chat.
@@ -15,7 +15,7 @@ import (
 	"regexp"
 	"strings"
 
-	en_us "github.com/Tnze/go-vmc/v767/data/lang/en-us"
+	en_us "github.com/maxsupermanhd/go-vmc/v767/data/lang/en-us"
 )
 
 const (

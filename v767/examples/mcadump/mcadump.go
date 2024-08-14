@@ -12,7 +12,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/Tnze/go-vmc/v767/save/region"
+	"github.com/maxsupermanhd/go-vmc/v767/save/region"
 )
 
 var (

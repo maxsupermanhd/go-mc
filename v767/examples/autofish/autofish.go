@@ -6,14 +6,14 @@ import (
 
 	//"github.com/mattn/go-colorable"
 
-	"github.com/Tnze/go-vmc/v767/bot"
-	"github.com/Tnze/go-vmc/v767/bot/basic"
-	"github.com/Tnze/go-vmc/v767/bot/msg"
-	"github.com/Tnze/go-vmc/v767/bot/playerlist"
-	"github.com/Tnze/go-vmc/v767/chat"
-	_ "github.com/Tnze/go-vmc/v767/data/lang/en-us"
-	"github.com/Tnze/go-vmc/v767/data/packetid"
-	pk "github.com/Tnze/go-vmc/v767/net/packet"
+	"github.com/maxsupermanhd/go-vmc/v767/bot"
+	"github.com/maxsupermanhd/go-vmc/v767/bot/basic"
+	"github.com/maxsupermanhd/go-vmc/v767/bot/msg"
+	"github.com/maxsupermanhd/go-vmc/v767/bot/playerlist"
+	"github.com/maxsupermanhd/go-vmc/v767/chat"
+	_ "github.com/maxsupermanhd/go-vmc/v767/data/lang/en-us"
+	"github.com/maxsupermanhd/go-vmc/v767/data/packetid"
+	pk "github.com/maxsupermanhd/go-vmc/v767/net/packet"
 )
 
 const timeout = 45

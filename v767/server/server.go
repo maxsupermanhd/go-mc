@@ -32,9 +32,9 @@ import (
 	"errors"
 	"log"
 
-	"github.com/Tnze/go-vmc/v767/data/packetid"
-	"github.com/Tnze/go-vmc/v767/net"
-	pk "github.com/Tnze/go-vmc/v767/net/packet"
+	"github.com/maxsupermanhd/go-vmc/v767/data/packetid"
+	"github.com/maxsupermanhd/go-vmc/v767/net"
+	pk "github.com/maxsupermanhd/go-vmc/v767/net/packet"
 )
 
 const (

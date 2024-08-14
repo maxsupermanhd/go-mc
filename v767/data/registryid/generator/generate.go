@@ -11,7 +11,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/Tnze/go-vmc/v767/internal/generateutils"
+	"github.com/maxsupermanhd/go-vmc/v767/internal/generateutils"
 )
 
 type registry struct {

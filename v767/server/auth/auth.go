@@ -17,11 +17,11 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/Tnze/go-vmc/v767/data/packetid"
-	"github.com/Tnze/go-vmc/v767/net"
-	"github.com/Tnze/go-vmc/v767/net/CFB8"
-	pk "github.com/Tnze/go-vmc/v767/net/packet"
-	"github.com/Tnze/go-vmc/v767/yggdrasil/user"
+	"github.com/maxsupermanhd/go-vmc/v767/data/packetid"
+	"github.com/maxsupermanhd/go-vmc/v767/net"
+	"github.com/maxsupermanhd/go-vmc/v767/net/CFB8"
+	pk "github.com/maxsupermanhd/go-vmc/v767/net/packet"
+	"github.com/maxsupermanhd/go-vmc/v767/yggdrasil/user"
 )
 
 // Deprecated: Moved to go-mc/yggdrasil/user, because go-mc/bot also needs them

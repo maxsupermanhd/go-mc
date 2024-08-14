@@ -8,10 +8,10 @@ import (
 	"math/bits"
 	"strconv"
 
-	"github.com/Tnze/go-vmc/v767/level/block"
-	"github.com/Tnze/go-vmc/v767/nbt"
-	pk "github.com/Tnze/go-vmc/v767/net/packet"
-	"github.com/Tnze/go-vmc/v767/save"
+	"github.com/maxsupermanhd/go-vmc/v767/level/block"
+	"github.com/maxsupermanhd/go-vmc/v767/nbt"
+	pk "github.com/maxsupermanhd/go-vmc/v767/net/packet"
+	"github.com/maxsupermanhd/go-vmc/v767/save"
 )
 
 type ChunkPos [2]int32

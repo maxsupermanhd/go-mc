@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"errors"
 
-	pk "github.com/Tnze/go-vmc/v767/net/packet"
+	pk "github.com/maxsupermanhd/go-vmc/v767/net/packet"
 )
 
 func (p *Player) handleUpdateTags(packet pk.Packet) error {

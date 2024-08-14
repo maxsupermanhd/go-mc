@@ -4,7 +4,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/Tnze/go-vmc/v767/level/block"
+	"github.com/maxsupermanhd/go-vmc/v767/level/block"
 )
 
 func TestPaletteContainer_seq(t *testing.T) {

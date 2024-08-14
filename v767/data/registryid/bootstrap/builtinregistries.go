@@ -1,9 +1,9 @@
 package bootstrap
 
 import (
-	"github.com/Tnze/go-vmc/v767/data/registryid"
-	"github.com/Tnze/go-vmc/v767/level/block"
-	"github.com/Tnze/go-vmc/v767/registry"
+	"github.com/maxsupermanhd/go-vmc/v767/data/registryid"
+	"github.com/maxsupermanhd/go-vmc/v767/level/block"
+	"github.com/maxsupermanhd/go-vmc/v767/registry"
 )
 
 func RegisterBlocks(reg *registry.Registry[block.Block]) {

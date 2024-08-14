@@ -6,11 +6,11 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/Tnze/go-vmc/v767/data/packetid"
-	"github.com/Tnze/go-vmc/v767/net"
-	pk "github.com/Tnze/go-vmc/v767/net/packet"
-	"github.com/Tnze/go-vmc/v767/net/queue"
-	"github.com/Tnze/go-vmc/v767/registry"
+	"github.com/maxsupermanhd/go-vmc/v767/data/packetid"
+	"github.com/maxsupermanhd/go-vmc/v767/net"
+	pk "github.com/maxsupermanhd/go-vmc/v767/net/packet"
+	"github.com/maxsupermanhd/go-vmc/v767/net/queue"
+	"github.com/maxsupermanhd/go-vmc/v767/registry"
 )
 
 // Client is used to access Minecraft server

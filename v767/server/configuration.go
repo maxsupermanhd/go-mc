@@ -1,11 +1,11 @@
 package server
 
 import (
-	"github.com/Tnze/go-vmc/v767/chat"
-	"github.com/Tnze/go-vmc/v767/data/packetid"
-	"github.com/Tnze/go-vmc/v767/net"
-	pk "github.com/Tnze/go-vmc/v767/net/packet"
-	"github.com/Tnze/go-vmc/v767/registry"
+	"github.com/maxsupermanhd/go-vmc/v767/chat"
+	"github.com/maxsupermanhd/go-vmc/v767/data/packetid"
+	"github.com/maxsupermanhd/go-vmc/v767/net"
+	pk "github.com/maxsupermanhd/go-vmc/v767/net/packet"
+	"github.com/maxsupermanhd/go-vmc/v767/registry"
 )
 
 type ConfigHandler interface {

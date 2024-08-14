@@ -10,10 +10,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/Tnze/go-vmc/v767/nbt"
-	"github.com/Tnze/go-vmc/v767/nbt/dynbt"
-	"github.com/Tnze/go-vmc/v767/save/region"
 	"github.com/google/uuid"
+	"github.com/maxsupermanhd/go-vmc/v767/nbt"
+	"github.com/maxsupermanhd/go-vmc/v767/nbt/dynbt"
+	"github.com/maxsupermanhd/go-vmc/v767/save/region"
 )
 
 func readEntities(dir string, m map[uuid.UUID]UserCache) {

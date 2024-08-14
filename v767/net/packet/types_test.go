@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/Tnze/go-vmc/v767/data/packetid"
-	pk "github.com/Tnze/go-vmc/v767/net/packet"
+	"github.com/maxsupermanhd/go-vmc/v767/data/packetid"
+	pk "github.com/maxsupermanhd/go-vmc/v767/net/packet"
 )
 
 var VarInts = []pk.VarInt{0, 1, 2, 127, 128, 255, 2147483647, -1, -2147483648}

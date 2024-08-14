@@ -3,8 +3,8 @@ package component
 import (
 	"io"
 
-	"github.com/Tnze/go-vmc/v767/nbt/dynbt"
-	pk "github.com/Tnze/go-vmc/v767/net/packet"
+	"github.com/maxsupermanhd/go-vmc/v767/nbt/dynbt"
+	pk "github.com/maxsupermanhd/go-vmc/v767/net/packet"
 )
 
 var _ DataComponent = (*Recipes)(nil)

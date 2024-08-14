@@ -3,7 +3,7 @@ package component
 import (
 	"io"
 
-	"github.com/Tnze/go-vmc/v767/chat"
+	"github.com/maxsupermanhd/go-vmc/v767/chat"
 )
 
 var _ DataComponent = (*CustomName)(nil)

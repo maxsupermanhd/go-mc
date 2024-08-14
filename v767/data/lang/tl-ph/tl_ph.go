@@ -2,7 +2,7 @@
 
 package tl_ph
 
-import "github.com/Tnze/go-vmc/v767/chat"
+import "github.com/maxsupermanhd/go-vmc/v767/chat"
 
 func init() { chat.SetLanguage(Map) }
 

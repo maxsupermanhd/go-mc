@@ -6,7 +6,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/Tnze/go-vmc/v767/chat"
+	"github.com/maxsupermanhd/go-vmc/v767/chat"
 )
 
 // keepAliveInterval represents the interval when the server sends keep alive

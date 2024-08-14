@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/Tnze/go-vmc/v767/nbt"
+	"github.com/maxsupermanhd/go-vmc/v767/nbt"
 )
 
 func TestValue_new(t *testing.T) {

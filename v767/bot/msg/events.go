@@ -1,6 +1,6 @@
 package msg
 
-import "github.com/Tnze/go-vmc/v767/chat"
+import "github.com/maxsupermanhd/go-vmc/v767/chat"
 
 // EventsHandler is a collection of event handlers.
 // Fill the fields with your handler functions and pass this struct to [New] to create the msg manager.

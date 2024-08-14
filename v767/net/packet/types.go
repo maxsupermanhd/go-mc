@@ -7,7 +7,7 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/Tnze/go-vmc/v767/nbt"
+	"github.com/maxsupermanhd/go-vmc/v767/nbt"
 )
 
 // A Field is both FieldEncoder and FieldDecoder

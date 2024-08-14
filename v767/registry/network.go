@@ -5,7 +5,7 @@ import (
 	"io"
 	"strconv"
 
-	pk "github.com/Tnze/go-vmc/v767/net/packet"
+	pk "github.com/maxsupermanhd/go-vmc/v767/net/packet"
 )
 
 func (reg *Registry[E]) ReadFrom(r io.Reader) (int64, error) {
